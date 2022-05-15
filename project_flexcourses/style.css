@@ -1,0 +1,96 @@
+html,body, .contanier {
+    height: 100%;
+  
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    
+   
+}
+
+* {
+    font-family: 'Tajawal', sans-serif;
+}
+
+.table-contanier{
+    height: 100%;
+    width: 100%;
+    
+}
+.right-side{
+
+    /* to put the right side to top position you have to be put it this syntax*/
+    vertical-align: top;
+    background-color: rgb(138, 220, 221);
+    width: 270px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 5px; 
+    padding-left: 5px;
+}
+
+.divader {
+    background-color: rgb(39, 114, 114);
+    height: 5px;
+    width: 90%;
+    margin: 5px auto;
+    margin-top: 28px;
+}
+.avatar img {
+    /* there two why to to center image*/
+    /* one make text=aling*/
+  /*
+    text-align: center;
+    */
+
+    /* two make margne and block */
+    
+    margin: 0 auto;
+    display: block;
+    border-radius: 50px;
+    border: 1px solid black;
+    height: 150px;
+    width: 150px;
+   
+}
+
+.right-side a img {
+    width: 48px;
+}
+
+/* left side css*/
+
+.left-side {
+    padding-left: 5px;
+    padding-right: 5px;
+    /* to make the left side to the top postion put this synatx*/
+    vertical-align: top;
+}
+
+.left-side h2 {
+    background-color: #ccc;
+    padding: 15px;
+}
+ 
+.left-side p {
+    /* to strutch text along to the page*/
+    text-align: justify;
+}
+
+.left-side ul {
+    list-style: square;
+}
+
+
+.left-side .image-dev img {
+    height: 50px;
+    width: 50px;
+   list-style: none;
+}
+
+.left-side .image-dev img ul li {
+    display:inline;
+}
